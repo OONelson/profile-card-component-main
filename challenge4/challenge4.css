@@ -1,0 +1,79 @@
+ *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            width: 1360px;
+            height: 109vh;
+            background-color: hsl(185, 75%, 39%);
+            background-image: url(images/bg-pattern-bottom.svg);
+            background-position: contain;
+            position: absolute;
+        }
+        .card{
+            width: 350px;
+            height: 500px;
+            background-color: #fff;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            border-radius: 30px;
+            box-shadow: 0px 8px 10px 4px rgb(0, 0, 0, 0.1);
+        }
+        .card img{
+            border-top-right-radius: 30px;
+            border-top-left-radius: 30px;
+        }
+        #second{
+            border-radius: 50%;
+            top: 28%;
+            left: 45%;
+            transform: translate(-28%, -45%);
+            position: absolute;
+            border: 2px solid #fff;
+        }
+        .card h1{
+            top: 43%;
+            left: 50%;
+            transform: translate(-43%, -50%);
+            position: absolute;
+            font-size: 18px;
+            color: hsl(229, 23%, 23%);
+        }
+        .card h1 span{
+            color: hsl(0, 0%, 59%);
+            margin-left: 5px;
+        }
+        .card p{
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            color: hsl(0, 0%, 59%);
+        }
+        .card hr{
+            top: 75%;
+            left: 0%;
+            transform: translate(-0%, -75%);
+            margin-top: 120px;
+            color:hsl(0, 0%, 59%) ;
+        }
+        .card ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        .card ul li{
+            list-style: none;
+            justify-content: space-evenly;
+        }
+        #one{
+            font-size: 18px;
+            color:  hsl(229, 23%, 23%);
+            font-weight: 900;
+        }
+        #two{
+            color: hsl(0, 0%, 59%);
+            text-align: center;
+        }
